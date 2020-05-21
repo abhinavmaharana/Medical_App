@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="130dp"
+        android:layout_height="123dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:background="@drawable/option"
+        android:fontFamily="@font/bold"
+        android:text="Don't Have An account"
+        android:textAlignment="textStart"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="130dp"
+        android:layout_height="123dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/option"
+        android:fontFamily="@font/bold"
+        android:text="Have A account"
+        android:textAlignment="textStart"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/btn_signup"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
