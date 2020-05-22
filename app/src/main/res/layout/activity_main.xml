@@ -5,17 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/background">
+    android:background="@drawable/popup">
 
 
     <Button
         android:id="@+id/btn_signup"
-        android:layout_width="130dp"
-        android:layout_height="123dp"
+        android:layout_width="150dp"
+        android:layout_height="169dp"
         android:layout_gravity="start"
-        android:layout_marginTop="400dp"
-        android:layout_marginEnd="56dp"
-        android:layout_marginRight="56dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
         android:background="@drawable/option"
         android:fontFamily="@font/bold"
         android:text="Don't Have An account"
@@ -26,12 +26,12 @@
 
     <Button
         android:id="@+id/btn_login"
-        android:layout_width="130dp"
-        android:layout_height="123dp"
+        android:layout_width="149dp"
+        android:layout_height="173dp"
         android:layout_gravity="start"
-        android:layout_marginStart="62dp"
-        android:layout_marginLeft="62dp"
-        android:layout_marginTop="400dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="280dp"
         android:background="@drawable/option"
         android:fontFamily="@font/bold"
         android:text="Have A account"
